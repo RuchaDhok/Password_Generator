@@ -8,6 +8,19 @@
     <title>Password Generator</title>
   </head>
   <body>
-    <script src="index.css"></script>
+    <div class="container">
+      <h1>
+        Generate a <br />
+        <span> Random Password</span>
+      </h1>
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" />
+        <img src="images/copy.png" onclick="copyPassword()" />
+      </div>
+      <button type="button" class="button" onclick="generatePassword()">
+        <img src="images/generate.png" /> Generate Password
+      </button>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
